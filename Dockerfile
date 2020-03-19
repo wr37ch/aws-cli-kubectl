@@ -2,7 +2,7 @@ FROM alpine:latest
 
 MAINTAINER Ulad Hramovich <vgrteam@gmail.com>
 
-ENV AWSCLI_VERSION 1.16.308
+ENV AWSCLI_VERSION 1.18.24
 
 RUN apk add -U --no-cache python3 ca-certificates curl \
     && pip3 install --no-cache-dir --upgrade pip \
