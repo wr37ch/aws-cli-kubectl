@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-MAINTAINER Ulad Hramovich <vgrteam@gmail.com>
+MAINTAINER Uladzislau Hramovich <vgrteam@gmail.com>
 
 ENV AWSCLI_VERSION 1.18.24
 
